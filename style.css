@@ -182,9 +182,12 @@ Navbar
     z-index: 2;
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
     /* hide navbar */
+    transform: translateX(-100%);
+
+
 }
 .showNav{
-
+    transform: translate(0);
 }
 .navbar-header{
     text-align: right;
@@ -216,6 +219,12 @@ Navbar
     color: var(--clr-primary);
     padding-left: 1.5rem;
     border-left: 0.25rem solid var(--clr-primary);
+}
+@media screen and (min-width: 768px){
+    .navbar{
+        width: 30vw;
+        max-width: 20rem;
+    }
 }
 /* 
 ==============
