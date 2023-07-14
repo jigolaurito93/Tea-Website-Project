@@ -199,6 +199,24 @@ Navbar
 .nav-close:hover{
     color: #bb2525;
 }
+.nav-items{
+    list-style-type: none;
+}
+.nav-link{
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-5);
+    transition: var(--transition);
+}
+.nav-link:hover {
+    background-color: var(--clr-primary-light);
+    color: var(--clr-primary);
+    padding-left: 1.5rem;
+    border-left: 0.25rem solid var(--clr-primary);
+}
 /* 
 ==============
 Header
